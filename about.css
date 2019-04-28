@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+body{
+	background: url('3.jpg');
+	background-size: cover;
+	font-family: 'Berkshire Swash', cursive;
+}
+body h1{
+	margin: 70px;
+    height: 55px;
+    float: center;
+    font-size: 100px;
+    color: #22BAB5;
+    text-shadow: 10px 10px 15px black;
+}
+body h5{
+	padding: 0px;
+	color: #22BAB5;
+	font-size: 20px;
+	text-shadow: 10px 10px 10px black;
+}
+.logo{
+	background: url('Winterfest-Logo-stacked.png') no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 35%;
+    left: 42%;
+}
+.para{
+	margin-left: 5px ;
+	position: absolute;
+	top: 60%;
+    left: 0%;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}

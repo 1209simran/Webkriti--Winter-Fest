@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+body{
+	background: url('2.jpg');
+	background-size: cover;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 25px;
+}
+h1{
+	text-align: center;
+	color: black;
+	margin: 30px 0 50px;
+	text-shadow: 10px 10px 15px black;
+}
+.gallery{
+	margin: 10px 50px;
+}
+.gallery img{
+	width: 250px;
+	height: 200px;
+	padding: 25px;
+	transition: 1s;
+	filter: grayscale(80%);
+	border-radius: 40px;
+
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}

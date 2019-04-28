@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body{
+	background: url('6.jpg') no-repeat;
+	background-size:cover;
+	font-family:  'Berkshire Swash', cursive;
+	color: white;
+	font-size: 25px;
+
+}
+li{
+	font-family: arial;
+	color: white;
+	font-size: 20px;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+body{
+	background:url('Amazing.jpg') no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	font-family:Arial;
+	color:white;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	width: 180px;
+	height: 40px;
+	background-color:black;
+	opacity: .8;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	margin-right: 5px;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+
+.fest{
+	position: absolute;
+	top:49%;
+	left: 31%;
+    font-size: 25px;
+    color: black;
+    text-shadow: 10px 10px 10px black;
+    font-family:'Berkshire Swash', cursive;
+	line-height: 2px;
+	text-align: center;
+}
